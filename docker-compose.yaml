@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  web:
+    container_name: test-smile-docker
+    image: unicorncey/smile-docker
+    ports:
+      - "9090:3000"
